@@ -1,0 +1,38 @@
+{
+  "name": "my-vscode-extension",
+  "version": "1.3.0",
+  "type": "commonjs",
+  "description": "CLI tool to auto-install recommended VS Code extensions",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "chmod +x index.js || echo Skipping chmod on Windows"
+  },
+  "bin": {
+    "my-vscode-extension": "./index.js"
+  },
+  "keywords": [
+    "vscode",
+    "cli",
+    "extensions",
+    "install",
+    "recommended",
+    "auto-install",
+    "himu",
+    "vscode-extension",
+    "vscode-extension-by-himu",
+    "vscode-extension-cli",
+    "vscode-extension-installer",
+    "vscode-extension-recommended",
+    "vscode-extension-auto-install",
+    "vscode-extension-setup",
+    "vscode-extension-setup-cli",
+    "vscode-extension-setup-tool",
+    "vscode-extension-setup-script"
+  ],
+  "author": "Ahsan Himu",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.6",
+    "my-vscode-extension": "^1.3.0"
+  }
+}
