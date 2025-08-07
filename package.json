@@ -8,7 +8,7 @@
     "postinstall": "chmod +x index.js || echo Skipping chmod on Windows"
   },
   "bin": {
-    "my-vscode-extension": "./index.js"
+    "my-vscode-extension": "index.js"
   },
   "keywords": [
     "vscode",
